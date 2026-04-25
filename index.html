@@ -162,17 +162,6 @@
     }
     .hero-content { position: relative; z-index: 1; }
 
-    /* Typewriter */
-    .typewriter-cursor {
-      display: inline-block;
-      width: 3px; height: 1.2em;
-      background: var(--secondary);
-      margin-left: 2px;
-      vertical-align: text-bottom;
-      animation: blink 0.7s infinite;
-    }
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-
     /* Floating animation */
     @keyframes float {
       0%,100%{ transform: translateY(0px); }
@@ -569,7 +558,7 @@
 
       <!-- Typewriter -->
       <div class="flex items-center gap-2 mb-6" style="font-size:1.3rem; color: var(--secondary); font-weight:600; font-family:'Poppins',sans-serif;">
-        <span id="typewriter"></span><span class="typewriter-cursor"></span>
+        <span id="typewriter"></span>
       </div>
 
       <p class="italic mb-3" style="color:var(--muted); font-size:1.05rem; max-width:500px;">
@@ -584,9 +573,9 @@
         <a href="#projects" class="btn-gradient px-8 py-4 rounded-full font-poppins font-semibold text-base">
           View My Work <i class="fa-solid fa-arrow-down ml-2"></i>
         </a>
-        <a href="cv.pdf" download class="btn-outline px-8 py-4 rounded-full font-poppins font-semibold text-base">
+        <!-- <a href="cv.pdf" download class="btn-outline px-8 py-4 rounded-full font-poppins font-semibold text-base">
           Download CV <i class="fa-solid fa-download ml-2"></i>
-        </a>
+        </a> -->
       </div>
 
       <!-- Socials -->
@@ -594,7 +583,7 @@
         <a href="#" class="social-icon" aria-label="YouTube" style="color:#FF0000; border-color:rgba(255,0,0,0.35);"><i class="fa-brands fa-youtube"></i></a>
         <a href="#" class="social-icon" aria-label="Facebook" style="color:#1877F2; border-color:rgba(24,119,242,0.35);"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://wa.me/923186346964" target="_blank" class="social-icon" aria-label="WhatsApp" style="color:#25D366; border-color:rgba(37,211,102,0.35);"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.me/923152007950" target="_blank" class="social-icon" aria-label="WhatsApp" style="color:#25D366; border-color:rgba(37,211,102,0.35);"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     </div>
 
@@ -610,7 +599,8 @@
              style="position:absolute; inset:8px; width:calc(100% - 16px); height:calc(100% - 16px); object-fit:cover; border-radius:50%;" />
         <!-- Floating tech badges -->
         <div class="float-anim" style="position:absolute; top:-10px; right:-20px; background:var(--card); border:1px solid rgba(14,165,233,0.4); padding:8px 14px; border-radius:10px; font-size:12px; font-weight:600; color:var(--primary);">
-          <i class="fa-solid fa-n mr-1"></i>Next.js
+          <!-- <i class="fa-solid fa-n mr-1"></i> -->
+          Next.js
         </div>
         <div class="float-slow" style="position:absolute; bottom:10px; right:-30px; background:var(--card); border:1px solid rgba(245,158,11,0.4); padding:8px 14px; border-radius:10px; font-size:12px; font-weight:600; color:var(--secondary);">
           <i class="fa-brands fa-js mr-1"></i>JS
@@ -690,7 +680,7 @@
           <div><span style="color:var(--muted); font-size:13px;">Experience</span><p style="font-weight:600;">3+ Years</p></div>
           <div><span style="color:var(--muted); font-size:13px;">Location</span><p style="font-weight:600;">Pakistan</p></div>
           <div><span style="color:var(--muted); font-size:13px;">Availability</span><p class="gradient-text font-semibold">Open to Work</p></div>
-          <div><span style="color:var(--muted); font-size:13px;">Email</span><p style="font-weight:600;">knai@example.com</p></div>
+          <div><span style="color:var(--muted); font-size:13px;">Email</span><p style="font-weight:600;">dononlineboss@gmail.com</p></div>
           <div><span style="color:var(--muted); font-size:13px;">Freelance</span><p class="gradient-text font-semibold">Available</p></div>
         </div>
 
@@ -818,7 +808,7 @@
               <div class="skill-bar-fill" data-width="80"></div>
             </div>
           </div>
-          <div class="skill-item">
+          <!-- <div class="skill-item">
             <div class="flex justify-between mb-2">
               <span style="font-weight:500; font-size:14px;"><i class="fa-brands fa-react mr-2" style="color:#61DAFB;"></i>React.js</span>
               <span class="gradient-text font-semibold text-sm">85%</span>
@@ -826,10 +816,12 @@
             <div style="height:8px; background:rgba(255,255,255,0.08); border-radius:999px; overflow:hidden;">
               <div class="skill-bar-fill" data-width="85"></div>
             </div>
-          </div>
+          </div> -->
           <div class="skill-item">
             <div class="flex justify-between mb-2">
-              <span style="font-weight:500; font-size:14px;"><i class="fa-solid fa-n mr-2" style="color:#fff;"></i>Next.js</span>
+              <span style="font-weight:500; font-size:14px;">
+                <!-- <i class="fa-solid fa-n mr-2" style="color:#fff;"></i> -->
+                Next.js</span>
               <span class="gradient-text font-semibold text-sm">78%</span>
             </div>
             <div style="height:8px; background:rgba(255,255,255,0.08); border-radius:999px; overflow:hidden;">
@@ -865,10 +857,10 @@
           <div class="tech-badge"><i class="fa-brands fa-css3-alt text-2xl block mb-2" style="color:#1572B6;"></i>CSS3</div>
           <div class="tech-badge"><i class="fa-brands fa-js text-2xl block mb-2" style="color:#F7DF1E;"></i>JavaScript</div>
           <div class="tech-badge"><i class="fa-solid fa-code text-2xl block mb-2" style="color:#3178C6;"></i>TypeScript</div>
-          <div class="tech-badge"><i class="fa-brands fa-react text-2xl block mb-2" style="color:#61DAFB;"></i>React</div>
+          <!-- <div class="tech-badge"><i class="fa-brands fa-react text-2xl block mb-2" style="color:#61DAFB;"></i>React</div> -->
           <div class="tech-badge"><i class="fa-solid fa-n text-2xl block mb-2"></i>Next.js</div>
           <div class="tech-badge"><i class="fa-solid fa-wind text-2xl block mb-2" style="color:#38BDF8;"></i>Tailwind</div>
-          <div class="tech-badge"><i class="fa-brands fa-sass text-2xl block mb-2" style="color:#CC6699;"></i>SASS</div>
+          <!-- <div class="tech-badge"><i class="fa-brands fa-sass text-2xl block mb-2" style="color:#CC6699;"></i>SASS</div> -->
           <div class="tech-badge"><i class="fa-brands fa-node-js text-2xl block mb-2" style="color:#6DA55F;"></i>Node.js</div>
           <div class="tech-badge"><i class="fa-brands fa-git-alt text-2xl block mb-2" style="color:#F05032;"></i>Git</div>
           <div class="tech-badge"><i class="fa-solid fa-pen-ruler text-2xl block mb-2" style="color:#F59E0B;"></i>Figma</div>
@@ -922,10 +914,10 @@
     <!-- Filter buttons -->
     <div class="flex flex-wrap justify-center gap-3 mb-12 reveal">
       <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="website">Websites</button>
       <button class="filter-btn" data-filter="uiux">UI/UX</button>
       <button class="filter-btn" data-filter="html">HTML/CSS/JS</button>
       <button class="filter-btn" data-filter="nextjs">Next.js</button>
+      <button class="filter-btn" data-filter="python">Python</button>
     </div>
 
     <!-- Project Grid -->
@@ -960,9 +952,37 @@
         </div>
       </div>
 
+      <div class="project-card reveal" data-category="python">
+        <div class="project-img-wrap">
+          <img src="python-qrcode.jpg" alt="Python Web Scraper"
+               onerror="this.src='https://placehold.co/600x340/111827/3776AB?text=Python+Project'" />
+          <div class="project-overlay">
+            <div class="flex gap-2 flex-wrap mb-3">
+              <span style="background:rgba(55,118,171,0.85); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Python</span>
+              <!-- <span style="background:rgba(14,165,233,0.85); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;"></span>
+              <span style="background:rgba(99,102,241,0.85); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">API</span> -->
+            </div>
+            <div class="flex gap-3">
+              <a href="https://drive.google.com/file/d/1BvFwwsGEP2an2PMs_B5eAG2kPFPjf5sC/view?usp=sharing" target="_blank" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
+            </div>
+          </div>
+        </div>
+        <div style="padding:1.5rem;">
+          <span style="background:rgba(55,118,171,0.1); color:#3776AB; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:600; border:1px solid rgba(55,118,171,0.25);">🐍 Python</span>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">QR Code Generator</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;">.</p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span style="background:rgba(55,118,171,0.1); color:#3776AB; font-size:11px; padding:3px 10px; border-radius:6px; border:1px solid rgba(55,118,171,0.2);"><i class="fa-brands fa-python mr-1"></i>Python</span>
+            <span style="background:rgba(14,165,233,0.1); color:#38BDF8; font-size:11px; padding:3px 10px; border-radius:6px; border:1px solid rgba(14,165,233,0.2);">Flask</span>
+            <span style="background:rgba(99,102,241,0.1); color:#6366F1; font-size:11px; padding:3px 10px; border-radius:6px; border:1px solid rgba(99,102,241,0.2);">BeautifulSoup</span>
+            <span style="background:rgba(34,197,94,0.1); color:#22C55E; font-size:11px; padding:3px 10px; border-radius:6px; border:1px solid rgba(34,197,94,0.2);">Pandas</span>
+          </div>
+        </div>
+      </div>
+
       <div class="project-card reveal" data-category="nextjs">
         <div class="project-img-wrap">
-          <img src="project2.jpg" alt="Portfolio Website"
+          <img src="project2.png" alt="Portfolio Website"
                onerror="this.src='https://placehold.co/600x340/1A1A2E/F59E0B?text=Project+2'" />
           <div class="project-overlay">
             <div class="flex gap-2 flex-wrap mb-3">
@@ -970,15 +990,15 @@
               <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">TypeScript</span>
             </div>
             <div class="flex gap-3">
-              <a href="#" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
-              <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a>
+              <a href="https://food-knai.vercel.app/" target="_blank" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
+              <!-- <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a> -->
             </div>
           </div>
         </div>
         <div style="padding:1.5rem;">
           <span style="background:rgba(245,158,11,0.15); color:var(--secondary); font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">Next.js</span>
-          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Creative Portfolio</h4>
-          <p style="color:var(--muted); font-size:13px; line-height:1.6;">Modern portfolio with animations, dark mode and CMS integration.</p>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Figma Food Project</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;"> Created Modern Design figma project with next.js .</p>
           <div class="flex flex-wrap gap-2 mt-3">
             <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Next.js</span>
             <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">TypeScript</span>
@@ -986,120 +1006,164 @@
           </div>
         </div>
       </div>
-
+<!-- _____________________________ ui ux-->
       <div class="project-card reveal" data-category="uiux">
         <div class="project-img-wrap">
-          <img src="project3.jpg" alt="Dashboard UI"
-               onerror="this.src='https://placehold.co/600x340/1A1A2E/10B981?text=Project+3'" />
-          <div class="project-overlay">
-            <div class="flex gap-2 flex-wrap mb-3">
-              <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Figma</span>
-              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">UI/UX</span>
-            </div>
-            <div class="flex gap-3">
-              <a href="#" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
-              <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a>
-            </div>
-          </div>
+          <video src="uiux1.mp4" controls autoplay muted loop style="width:100%; height:100%; object-fit:cover;">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div style="padding:1.5rem;">
-          <span style="background:rgba(16,185,129,0.15); color:#10B981; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">UI/UX</span>
-          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Analytics Dashboard</h4>
-          <p style="color:var(--muted); font-size:13px; line-height:1.6;">Data visualization dashboard with real-time charts and interactive reports.</p>
-          <div class="flex flex-wrap gap-2 mt-3">
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">React</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Chart.js</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">CSS</span>
-          </div>
+          <span style="background:rgba(108,99,255,0.15); color:#6C63FF; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">UI/UX</span>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Project 1</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;">UI/UX design project showcase.</p>
         </div>
       </div>
+        <!-- ___________________________ -->
 
-      <div class="project-card reveal" data-category="website">
+      <div class="project-card reveal" data-category="uiux">
+          <div class="project-img-wrap">
+            <video src="uiux2.mp4" controls autoplay muted loop style="width:100%; height:100%; object-fit:cover;">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div style="padding:1.5rem;">
+            <span style="background:rgba(108,99,255,0.15); color:#6C63FF; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">UI/UX</span>
+            <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Project 2</h4>
+            <p style="color:var(--muted); font-size:13px; line-height:1.6;">UI/UX design project showcase.</p>
+          </div>
+      </div>
+<!-- ___________________________ -->
+<div class="project-card reveal" data-category="uiux">
+  <div class="project-img-wrap">
+    <video src="uiux3.mp4" controls autoplay muted loop style="width:100%; height:100%; object-fit:cover;">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div style="padding:1.5rem;">
+    <span style="background:rgba(108,99,255,0.15); color:#6C63FF; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">UI/UX</span>
+    <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Project 3</h4>
+    <p style="color:var(--muted); font-size:13px; line-height:1.6;">UI/UX design project showcase.</p>
+  </div>
+</div>
+      
+
+      <div class="project-card reveal" data-category="html">
         <div class="project-img-wrap">
-          <img src="project4.jpg" alt="Restaurant Website"
-               onerror="this.src='https://placehold.co/600x340/1A1A2E/EF4444?text=Project+4'" />
+          <img src="project5.png" alt="Task Manager App"
+               onerror="this.src='https://placehold.co/600x340/1A1A2E/8B5CF6?text=Project+5'" />
           <div class="project-overlay">
             <div class="flex gap-2 flex-wrap mb-3">
-              <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">HTML</span>
-              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">CSS</span>
+              <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Html5</span>
+              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Css</span>
             </div>
             <div class="flex gap-3">
-              <a href="#" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
-              <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a>
+              <a href="https://palindrome-knai.vercel.app/" target="_blank" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
+              <!-- <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a> -->
             </div>
           </div>
         </div>
         <div style="padding:1.5rem;">
-          <span style="background:rgba(239,68,68,0.15); color:#EF4444; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">Website</span>
-          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Restaurant Website</h4>
-          <p style="color:var(--muted); font-size:13px; line-height:1.6;">Elegant restaurant site with menu, reservations and gallery section.</p>
+          <span style="background:rgba(139,92,246,0.15); color:#8B5CF6; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">Html & Css</span>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Palaindrome Project</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;">This project is a simple palindrome checker that checks if a word is a palindrome.</p>
           <div class="flex flex-wrap gap-2 mt-3">
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">HTML5</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">CSS3</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">JS</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Html5</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Css</span>
+            
           </div>
         </div>
       </div>
 
       <div class="project-card reveal" data-category="html">
         <div class="project-img-wrap">
-          <img src="project5.jpg" alt="Task Manager App"
+          <img src="project7.png" alt="Task Manager App"
                onerror="this.src='https://placehold.co/600x340/1A1A2E/8B5CF6?text=Project+5'" />
           <div class="project-overlay">
             <div class="flex gap-2 flex-wrap mb-3">
-              <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">React</span>
-              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Redux</span>
+              <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Html5</span>
+              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Css</span>
             </div>
             <div class="flex gap-3">
-              <a href="#" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
-              <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a>
+              <a href="https://counter-application-knai.vercel.app/" target="_blank" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
+              <!-- <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a> -->
             </div>
           </div>
         </div>
         <div style="padding:1.5rem;">
-          <span style="background:rgba(139,92,246,0.15); color:#8B5CF6; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">React</span>
-          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Task Manager App</h4>
-          <p style="color:var(--muted); font-size:13px; line-height:1.6;">Full-featured productivity app with drag-drop, categories and reminders.</p>
+          <span style="background:rgba(139,92,246,0.15); color:#8B5CF6; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">Html & Css</span>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Counter Project</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;">This project is a simple counter that counts up from 0 to 100.</p>
           <div class="flex flex-wrap gap-2 mt-3">
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">React</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Redux</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Firebase</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Html5</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Css</span>
+            
           </div>
         </div>
       </div>
 
       <div class="project-card reveal" data-category="nextjs">
         <div class="project-img-wrap">
-          <img src="project6.jpg" alt="Blog Platform"
+          <img src="project6.png" alt="Resturant Website"
                onerror="this.src='https://placehold.co/600x340/1A1A2E/06B6D4?text=Project+6'" />
           <div class="project-overlay">
             <div class="flex gap-2 flex-wrap mb-3">
               <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Next.js</span>
-              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">MDX</span>
+              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Typescript</span>
+              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Tailwind css</span>
             </div>
             <div class="flex gap-3">
-              <a href="#" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
-              <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a>
+              <a href="https://foodtuck-hac3.vercel.app/" target="_blank" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
+              <!-- <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a> -->
             </div>
           </div>
         </div>
         <div style="padding:1.5rem;">
           <span style="background:rgba(6,182,212,0.15); color:#06B6D4; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">Next.js</span>
-          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Blog Platform</h4>
-          <p style="color:var(--muted); font-size:13px; line-height:1.6;">Modern blogging platform with SEO optimization, search and categories.</p>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Resturant Website</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;">Beautiful layout and responsive design.</p>
           <div class="flex flex-wrap gap-2 mt-3">
             <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Next.js</span>
-            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">MDX</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Typescript</span>
             <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Tailwind</span>
           </div>
         </div>
       </div>
+      <!-- project 8 -->
+      <div class="project-card reveal" data-category="nextjs">
+        <div class="project-img-wrap">
+          <img src="project8.png" alt=""
+               onerror="this.src='https://placehold.co/600x340/1A1A2E/06B6D4?text=Project+6'" />
+          <div class="project-overlay">
+            <div class="flex gap-2 flex-wrap mb-3">
+              <span style="background:rgba(108,99,255,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Next.js</span>
+              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Typescript</span>
+              <span style="background:rgba(245,158,11,0.8); color:#fff; font-size:11px; padding:3px 10px; border-radius:999px;">Tailwind css</span>
+            </div>
+            <div class="flex gap-3">
+              <a href="https://count-down-timer-knai.vercel.app/" target="_blank" style="background:var(--primary); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">Live Demo ↗</a>
+              <!-- <a href="#" style="border:1px solid rgba(255,255,255,0.3); color:#fff; padding:8px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none;">GitHub ↗</a> -->
+            </div>
+          </div>
+        </div>
+        <div style="padding:1.5rem;">
+          <span style="background:rgba(6,182,212,0.15); color:#06B6D4; font-size:11px; padding:4px 12px; border-radius:999px; font-weight:500;">Next.js</span>
+          <h4 class="font-poppins font-semibold text-lg mt-3 mb-2">Countdown Timer</h4>
+          <p style="color:var(--muted); font-size:13px; line-height:1.6;"> This project is a simple countdown timer that counts down from a given time.</p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Next.js</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Typescript</span>
+            <span style="background:rgba(255,255,255,0.05); color:var(--muted); font-size:11px; padding:3px 10px; border-radius:6px;">Tailwind</span>
+          </div>
+        </div>
+      </div>
+      <!--  -->
     </div>
 
     <div class="text-center mt-12 reveal">
-      <button class="btn-outline px-10 py-4 rounded-full font-poppins font-semibold">
+      <a href="#projects" class="btn-outline px-10 py-4 rounded-full font-poppins font-semibold inline-block">
         View All Projects <i class="fa-solid fa-arrow-right ml-2"></i>
-      </button>
+      </a>
     </div>
   </div>
 </section>
@@ -1224,7 +1288,7 @@
             </div>
             <div>
               <div style="font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:1px;">Email</div>
-              <div style="font-weight:600;">knai@example.com</div>
+              <div style="font-weight:600;">dononlineboss@gmail.com</div>
             </div>
           </div>
           <div class="flex items-center gap-4">
@@ -1233,7 +1297,7 @@
             </div>
             <div>
               <div style="font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:1px;">WhatsApp</div>
-              <div style="font-weight:600;">+923186346964</div>
+              <div style="font-weight:600;">+923152007950</div>
             </div>
           </div>
           <div class="flex items-center gap-4">
@@ -1251,7 +1315,7 @@
           <a href="#" class="social-icon" style="width:50px; height:50px; font-size:18px; color:#FF0000; border-color:rgba(255,0,0,0.3);" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
           <a href="#" class="social-icon" style="width:50px; height:50px; font-size:18px; color:#1877F2; border-color:rgba(24,119,242,0.3);" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="#" class="social-icon" style="width:50px; height:50px; font-size:18px;" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://wa.me/923186346964" target="_blank" class="social-icon" style="width:50px; height:50px; font-size:18px; color:#25D366; border-color:rgba(37,211,102,0.3);" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://wa.me/923152007950" target="_blank" class="social-icon" style="width:50px; height:50px; font-size:18px; color:#25D366; border-color:rgba(37,211,102,0.3);" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
 
         <!-- Hire Me CTA card -->
@@ -1317,7 +1381,7 @@
           <a href="#" class="social-icon" aria-label="YouTube" style="color:#FF0000; border-color:rgba(255,0,0,0.3);"><i class="fa-brands fa-youtube"></i></a>
           <a href="#" class="social-icon" aria-label="Facebook" style="color:#1877F2; border-color:rgba(24,119,242,0.3);"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://wa.me/923186346964" target="_blank" class="social-icon" aria-label="WhatsApp" style="color:#25D366; border-color:rgba(37,211,102,0.4);"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://wa.me/923152007950" target="_blank" class="social-icon" aria-label="WhatsApp" style="color:#25D366; border-color:rgba(37,211,102,0.4);"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
       </div>
       <!-- Quick Links -->
@@ -1354,11 +1418,11 @@
           </div>
           <div class="flex items-center gap-3">
             <i class="fa-solid fa-envelope" style="color:var(--primary); font-size:13px; width:16px;"></i>
-            <span style="color:var(--muted); font-size:13px;">knai@example.com</span>
+            <span style="color:var(--muted); font-size:13px;">dononlineboss@gmail.com</span>
           </div>
           <div class="flex items-center gap-3">
             <i class="fa-brands fa-whatsapp" style="color:#25D366; font-size:13px; width:16px;"></i>
-            <span style="color:var(--muted); font-size:13px;">+923186346964</span>
+            <span style="color:var(--muted); font-size:13px;">+923152007950</span>
           </div>
         </div>
       </div>
@@ -1487,21 +1551,8 @@
   });
 
   // ---- Typewriter ----
-  const texts = ['Frontend Web Developer', 'UI/UX Designer', 'React.js Expert', 'Next.js Developer'];
-  let ti = 0, ci = 0, deleting = false;
   const tw = document.getElementById('typewriter');
-  function typeWriter() {
-    const current = texts[ti];
-    if (!deleting) {
-      tw.textContent = current.substring(0, ++ci);
-      if (ci === current.length) { deleting = true; setTimeout(typeWriter, 1800); return; }
-    } else {
-      tw.textContent = current.substring(0, --ci);
-      if (ci === 0) { deleting = false; ti = (ti + 1) % texts.length; }
-    }
-    setTimeout(typeWriter, deleting ? 60 : 100);
-  }
-  typeWriter();
+  tw.textContent = 'Frontend Web Developer';
 
   // ---- Scroll reveal ----
   const revealObserver = new IntersectionObserver((entries) => {
@@ -1623,7 +1674,7 @@
 
     const msg = `🌟 *NEW PROJECT INQUIRY*\n\n👤 *Client Details:*\n• Name: ${fn} ${ln}\n• Address: ${addr}\n• WhatsApp: ${wa}\n\n📋 *Project Details:*\n• Type: ${pt}\n• Budget: ${bud}\n\n📝 *Notes:*\n${notes || 'No additional notes'}\n\n---\n_Sent from Knai Developer Portfolio_`;
 
-    window.open('https://wa.me/923186346964?text=' + encodeURIComponent(msg), '_blank');
+    window.open('https://wa.me/923152007950?text=' + encodeURIComponent(msg), '_blank');
     closeModal();
     document.getElementById('hireForm').reset();
     showToast('Message sent! I\'ll contact you soon 🎉');
