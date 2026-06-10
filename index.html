@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Knai Developer — Frontend Web Developer</title>
-  <meta name="description" content="Knai Developer — passionate Frontend Web Developer crafting beautiful, responsive & user-friendly websites." />
+  <title>NexusAI Developer — Frontend Web Developer</title>
+  <meta name="description" content="NexusAI Developer — passionate Frontend Web Developer crafting beautiful, responsive & user-friendly websites." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -144,6 +144,14 @@
     }
     .nav-link:hover, .nav-link.active { color: #fff; }
     .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+
+    /* Logo hover */
+    #navbar img[src="logo.png"], footer img[src="logo.png"] {
+      transition: transform 0.3s ease;
+    }
+    #navbar img[src="logo.png"]:hover, footer img[src="logo.png"]:hover {
+      transform: scale(1.15);
+    }
 
     /* Hero */
     #hero {
@@ -498,9 +506,8 @@
   <div class="flex items-center justify-between w-full">
     <!-- Logo -->
     <a href="#hero" class="flex items-center gap-3">
-      <img src="logo.png" alt="Knai Developer Logo" style="height:58px; filter: drop-shadow(0 0 8px rgba(14,165,233,0.5));"
+      <img src="logo.png" alt="NexusAI Developer Logo" style="height:100px; filter: drop-shadow(0 0 8px rgba(14,165,233,0.5));"
            onerror="this.style.display='none'" />
-      <span class="font-poppins font-bold text-xl gradient-text">Knai Developer</span>
     </a>
 
     <!-- Desktop Nav -->
@@ -553,7 +560,7 @@
 
       <p class="font-poppins font-700 text-white mb-2" style="font-size:clamp(1.5rem,3vw,2rem);">Hello, I'm</p>
       <h1 class="font-poppins font-extrabold animated-gradient-bg mb-4" style="font-size:clamp(2.5rem,6vw,5rem); line-height:1.1;">
-        Knai Developer
+        NexusAI Developer
       </h1>
 
       <!-- Typewriter -->
@@ -565,7 +572,7 @@
         "creative beautiful, responsive &amp; userfriendly website"
       </p>
       <p class="mb-8" style="color:var(--muted); font-size:0.95rem; max-width:600px; line-height:1.8;">
-        Hello! I'm Knai Developer, a passionate Frontend Web Developer with 3 years of experience in crafting intuitive and visually appealing user interfaces. With a solid background in HTML, CSS, JavaScript, TypeScript and modern frontend frameworks like Next.js, I strive to create seamless and responsive web experiences.
+        Hello! I'm NexusAI Developer, a passionate Frontend Web Developer with 3 years of experience in crafting intuitive and visually appealing user interfaces. With a solid background in HTML, CSS, JavaScript, TypeScript and modern frontend frameworks like Next.js, I strive to create seamless and responsive web experiences.
       </p>
 
       <!-- Buttons -->
@@ -594,8 +601,8 @@
         <div class="absolute inset-0 rounded-full spin-slow" style="background: conic-gradient(from 0deg, #0EA5E9, #6366F1, #0EA5E9); padding:4px; border-radius:50%;">
           <div style="background:var(--dark); width:100%; height:100%; border-radius:50%;"></div>
         </div>
-        <img src="about.jpg" alt="Knai Developer"
-             onerror="this.src='https://ui-avatars.com/api/?name=Knai+Developer&size=280&background=6C63FF&color=fff&font-size=0.4'"
+        <img src="about.jpg" alt="NexusAI Developer"
+             onerror="this.src='https://ui-avatars.com/api/?name=NexusAI+Developer&size=280&background=6C63FF&color=fff&font-size=0.4'"
              style="position:absolute; inset:8px; width:calc(100% - 16px); height:calc(100% - 16px); object-fit:cover; border-radius:50%;" />
         <!-- Floating tech badges -->
         <div class="float-anim" style="position:absolute; top:-10px; right:-20px; background:var(--card); border:1px solid rgba(14,165,233,0.4); padding:8px 14px; border-radius:10px; font-size:12px; font-weight:600; color:var(--primary);">
@@ -650,8 +657,8 @@
       <!-- Image -->
       <div class="reveal-left relative flex justify-center">
         <div class="relative" style="width:fit-content;">
-          <img src="about.jpg" alt="Knai Developer"
-               onerror="this.src='https://ui-avatars.com/api/?name=Knai+Developer&size=400&background=6C63FF&color=fff'"
+          <img src="about.jpg" alt="NexusAI Developer"
+               onerror="this.src='https://ui-avatars.com/api/?name=NexusAI+Developer&size=400&background=6C63FF&color=fff'"
                style="width:100%; max-width:400px; border-radius:20px; border:3px solid transparent;
                       background: linear-gradient(var(--surface),var(--surface)) padding-box, var(--gradient) border-box;
                       display:block;" />
@@ -677,7 +684,7 @@
 
         <!-- Info grid -->
         <div class="grid grid-cols-2 gap-4 mb-8">
-          <div><span style="color:var(--muted); font-size:13px;">Name</span><p style="font-weight:600;">Knai Developer</p></div>
+          <div><span style="color:var(--muted); font-size:13px;">Name</span><p style="font-weight:600;">NexusAI Developer</p></div>
           <div><span style="color:var(--muted); font-size:13px;">Experience</span><p style="font-weight:600;">3 Years</p></div>
           <div><span style="color:var(--muted); font-size:13px;">Location</span><p style="font-weight:600;">Pakistan</p></div>
           <div><span style="color:var(--muted); font-size:13px;">Availability</span><p class="gradient-text font-semibold">Open to Work</p></div>
@@ -1585,8 +1592,7 @@
       <!-- Brand -->
       <div>
         <div class="flex items-center gap-3 mb-4">
-          <img src="logo.png" alt="Logo" style="height:48px;" onerror="this.style.display='none'" />
-          <span class="font-poppins font-bold text-lg gradient-text">Knai Developer</span>
+          <img src="logo.png" alt="Logo" style="height:80px;" onerror="this.style.display='none'" />
         </div>
         <p style="color:var(--muted); font-size:13px; line-height:1.8; margin-bottom:1.5rem;">Building beautiful web experiences that matter.</p>
         <div class="flex gap-3">
@@ -1645,7 +1651,7 @@
 
     <!-- Bottom bar -->
     <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p style="color:var(--muted); font-size:13px;">© 2025 Knai Developer. All rights reserved.</p>
+      <p style="color:var(--muted); font-size:13px;">© 2025 NexusAI Developer. All rights reserved.</p>
       <p style="color:var(--muted); font-size:13px;">Made with <span style="color:#EF4444;">❤️</span> and lots of <span style="color:var(--secondary);">☕</span></p>
     </div>
   </div>
@@ -1884,7 +1890,7 @@
     });
     if (!valid) return;
 
-    const msg = `🌟 *NEW PROJECT INQUIRY*\n\n👤 *Client Details:*\n• Name: ${fn} ${ln}\n• Address: ${addr}\n• WhatsApp: ${wa}\n\n📋 *Project Details:*\n• Type: ${pt}\n• Budget: ${bud}\n\n📝 *Notes:*\n${notes || 'No additional notes'}\n\n---\n_Sent from Knai Developer Portfolio_`;
+    const msg = `🌟 *NEW PROJECT INQUIRY*\n\n👤 *Client Details:*\n• Name: ${fn} ${ln}\n• Address: ${addr}\n• WhatsApp: ${wa}\n\n📋 *Project Details:*\n• Type: ${pt}\n• Budget: ${bud}\n\n📝 *Notes:*\n${notes || 'No additional notes'}\n\n---\n_Sent from NexusAI Developer Portfolio_`;
 
     window.open('https://wa.me/923152007950?text=' + encodeURIComponent(msg), '_blank');
     closeModal();
